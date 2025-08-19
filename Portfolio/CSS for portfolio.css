@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+}
+
+
+.nav1{
+   height: 50px;
+   width: 100%;
+    background:rgb(177, 92, 177);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   border: 3px solid rgb(120, 50, 134);
+    
+}
+.name{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: purple;
+
+}
+
+
+
+.menu a{
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.box{
+    height: 800px;
+    width: 100%;
+    background-color:rgb(207, 205, 205) ;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(142, 145, 148);
+    padding-left: 35px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 5rem;
+    padding-left:35px ;
+}
+
+
+.outer{
+    float: right;
+    height: 350px;
+    border-radius: 30em;
+    border: 15px solid rgb(196, 77, 196);
+
+}
+
+
+.inner{
+     float: right;
+    height: 320px;
+    border-radius: 30em;
+    border: 15px solid purple;
+}
+
+.circle{
+    float: right;
+    height: 300px;
+    width: 300px;
+    
+    background-color: rgb(253, 255, 255);
+    border-radius: 30em;
+    border: 10px solid palevioletred;
+    background-image: url(pro1.jpg);
+    background-size: 300px 300px ;
+    
+    
+}
+
+.help{
+    margin:0px 5px;
+}
+
+h2{
+    padding-left: 35px;
+    font-size: 3rem;
+    color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Lorem{
+    color: gray;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 35px;
+    
+}
+
+.button{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+
+
+button{
+    padding-left: 35px;
+    height: 50px;
+    width: 20%;
+    background-color:rgb(196, 77, 196);
+    border-radius: 5px;
+    margin: 10px;
+    transition: all 0.3s ease;
+    
+}
+
+button:hover{
+    background-color: purple;
+    transform: scale(1,1);
+
+}
+
+.insta{
+    height: 80px;
+    width: 80px;
+    margin: 3px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.lnk{
+    height: 80px;
+    width: 80px;
+    margin: 3px;
+    padding: 20px;
+}
+
+.twitter{
+    height: 80px;
+    width: 80px;
+    margin: 3px;
+    padding: 20px;
+    border-radius: 30px;
+}
